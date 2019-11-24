@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [{
+    "packageNames": ["mcr.microsoft.com/windows/servercore"],
+    "versionScheme": "regex:^10\\.0\\.(?<major>\\d+)\\.(?<minor>\\d+)$"
+  }]
+}
