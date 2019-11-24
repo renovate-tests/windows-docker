@@ -4,6 +4,7 @@
   ],
   "packageRules": [{
     "packageNames": ["mcr.microsoft.com/windows/servercore"],
-    "versionScheme": "regex:^(?<major>\\d+\\.\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
+    "versionScheme": "regex:^(?<major>\\d+\\.\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$",
+    "separateMinorPatch": true
   }]
 }
